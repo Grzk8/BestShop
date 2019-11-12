@@ -1,0 +1,110 @@
+body {
+    font-family: 'ralewayregular', Arial, sans-serif;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'), url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+    width: 1352px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+
+    border-bottom: 1px solid #95989A;
+    position: relative;
+    height: 50px;
+}
+.logo{
+    font-size: 3em;
+    color: #08A6E4;
+    display: block;
+    float: left;
+    position: absolute;
+    top: -30px;
+
+}
+.menu li{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 100px;
+    color: #95989A;
+    display: block;
+    float: right;
+    height: 100%;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+li:hover{
+    font-weight: bold;
+    color: black;
+}
+.section-1{
+    background-image: url("../assets/Background.png");
+    background-position: bottom;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+.section-1 h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: 80px;
+}
+.section-1 p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.cont-sect1{
+    position: relative;
+}
+.btn{
+    font-size: 1.5em;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #08A6E4;
+    text-decoration: none;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    left: 36%;
+}
+.section-2{
+    height: 400px;
+}
+.section-2 h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.wigets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.daily-enteres, .seen-products, .added-posts{
+    border: 1px solid black;
+}
+.round{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: green;
+}
+.daily-enteres .round{
+    background-color: #FB3B64;
+}
+.seen-products .round{
+    background-color: #08A6E4;
+}
+.added-posts .round{
+    background-color: #55DFB4;
+}
