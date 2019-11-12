@@ -89,9 +89,11 @@ li:hover{
 .wigets{
     display: flex;
     justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
 }
 .daily-enteres, .seen-products, .added-posts{
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .round{
     height: 60px;
@@ -102,9 +104,185 @@ li:hover{
 .daily-enteres .round{
     background-color: #FB3B64;
 }
+.daily-logo{
+
+}
 .seen-products .round{
     background-color: #08A6E4;
 }
 .added-posts .round{
     background-color: #55DFB4;
+}
+.wigets .numbers{
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.wigets .text{
+    font-size: 1rem;
+    color: #95989A;
+    text-align: center;
+}
+.section-3{
+    background-color: gainsboro;
+
+}
+.cont-sect3{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
+.first, .second, .third{
+    border: 1px solid #95989A;
+    background-color: #FFFFFF;
+    height: 350px;
+
+}
+.cont-sect3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.first-text{
+    display: block;
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.first-text h3{
+    font-size: 2rem;
+}
+.first-text p{
+    font-size: 0.8rem;
+    max-width: 300px;
+
+}
+.line{
+    display: block;
+    height: 3px;
+    width: 300px;
+    background-color: #FB3B64;
+
+}
+.first.pic{
+    position: absolute;
+    float: right;
+}
+.picmacbook{
+    background-image: url("../assets/Macbook.png");
+    width: 350px;
+    height: 200px;
+    display: block;
+    right: -500px;
+    top: 70px;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+}
+.first-box{
+    width: 130px;
+    height: 130px;
+    background-color: #FB3B64;
+    border-radius: 10%;
+    transform: rotate(40deg);
+    position: relative;
+    right: -720px;
+    top: -160px;
+    z-index: 0;
+}
+.second-text{
+    display: block;
+    float: right;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.second-text h3{
+    font-size: 2rem;
+}
+.second-text p{
+    font-size: 0.8rem;
+    max-width: 300px;
+
+}
+.second-text .line{
+    display: block;
+    height: 3px;
+    width: 300px;
+    background-color: #08A6E4;
+
+}
+.second.pic{
+    position: absolute;
+    float: left;
+}
+.iphone{
+    background-image: url("../assets/iPhone.png");
+    width: 260px;
+    height: 200px;
+    display: block;
+    right: -150px;
+    top: 70px;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+}
+.second-box{
+    width: 230px;
+    height: 230px;
+    background-color: #08A6E4;
+    border-radius: 50%;
+    transform: rotate(40deg);
+    position: relative;
+    right: -120px;
+    top: -160px;
+    z-index: 0;
+}
+
+
+
+
+.third-text{
+    display: block;
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.third-text h3{
+    font-size: 2rem;
+}
+.third-text p{
+    font-size: 0.8rem;
+    max-width: 300px;
+
+}
+.third-text .line{
+    display: block;
+    height: 3px;
+    width: 300px;
+    background-color: #55DFB4;
+
+}
+.third.pic{
+    position: absolute;
+    float: right;
+}
+.trumpet{
+    background-image: url("../assets/Trumpet.png");
+    width: 300px;
+    height: 150px;
+    right: -650px;
+    top: 95px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.third-box{
+    width: 350px;
+    height: 350px;
+    background-color: #55DFB4;
+    border-radius: 1%;
+    position: relative;
+    right: -650px;
+    top: -150px;
+    z-index: 0;
 }
