@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'ralewayregular', Arial, sans-serif;
     font-size: 10px;
@@ -10,40 +15,48 @@ body {
     font-style: normal;
 }
 .container{
+    margin: 0 auto;
     width: 1352px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 header{
 
-    border-bottom: 1px solid #95989A;
+    box-shadow: 0px 3px 6px #00000029;
     position: relative;
     height: 50px;
+    padding-top: 12px;
 }
 .logo{
     font-size: 3em;
     color: #08A6E4;
     display: block;
-    float: left;
     position: absolute;
-    top: -30px;
+    top: 0px;
+    padding-top: 8px;
 
 }
 .menu li{
     list-style-type: none;
-    padding-top: 10px;
-    padding-right: 100px;
+}
+.menu li a{
+
+    padding: 10px;
     color: #95989A;
     display: block;
     float: right;
     height: 100%;
     font-size: 1.2em;
     letter-spacing: 2px;
+    text-decoration: none;
 }
-li:hover{
+li a:hover{
     font-weight: bold;
     color: black;
+    border-bottom: 4px solid #08A6E4;
 }
+
+
+
 .section-1{
     background-image: url("../assets/Background.png");
     background-position: bottom;
@@ -51,19 +64,21 @@ li:hover{
     background-repeat: no-repeat;
 }
 .section-1 h1{
-    font-size: 4em;
+    font-size: 5em;
+    font-weight: 400;
     text-align: center;
-    padding-top: 80px;
+    padding: 80px 0 20px 0;
 }
 .section-1 p{
     font-size: 1.5em;
     text-align: center;
+    padding: 0 0 20px 0;
 }
 .cont-sect1{
     position: relative;
 }
 .btn{
-    font-size: 1.5em;
+    font-size: 2em;
     display: block;
     font-weight: bold;
     text-align: center;
@@ -72,16 +87,19 @@ li:hover{
     text-decoration: none;
     color: white;
     width: 400px;
-    height: 40px;
+    height: 60px;
     border-radius: 50px;
     position: absolute;
     left: 36%;
 }
-.section-2{
+
+
+#why-us{
     height: 400px;
 }
-.section-2 h2{
+#why-us h2{
     font-size: 2rem;
+    font-weight: 200;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 50px;
@@ -92,28 +110,71 @@ li:hover{
     width: 90%;
     margin: auto;
 }
-.daily-enteres, .seen-products, .added-posts{
-    border: 1px solid white;
+
+
+.daily-logo{
+    background: transparent url("../assets/Person.svg");
+    height: 55px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+
 }
-.round{
+.daily-logo:before{
+    content: "";
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background-color: green;
-}
-.daily-enteres .round{
     background-color: #FB3B64;
-}
-.daily-logo{
+    z-index: -1;
+    left: 28%;
+    display: block;
+    position: absolute;
 
 }
-.seen-products .round{
+.seen-logo{
+    background: url("../assets/Eye.svg");
+    height: 55px;
+    width: 65px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+.seen-logo:before{
+    content: "";
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
     background-color: #08A6E4;
+    z-index: -1;
+    left: 46.5%;
+    position: absolute;
 }
-.added-posts .round{
+.added-logo{
+    background: url("../assets/Catalog.svg");
+    height: 55px;
+    width: 65px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+.added-logo:before{
+    content: "";
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
     background-color: #55DFB4;
+    z-index: -1;
+    left: 64%;
+    position: absolute;
 }
+
 .wigets .numbers{
+    border-top: 10px;
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 4px;
@@ -123,23 +184,44 @@ li:hover{
     color: #95989A;
     text-align: center;
 }
-.section-3{
-    background-color: gainsboro;
 
+
+
+
+
+
+#benefits{
+    background-color: #F7F7F7;
+    height: 1350px;
 }
-.cont-sect3{
+.cont-benefits{
     display: flex;
     flex-direction: column;
     width: 1000px;
     margin: auto;
 }
-.first, .second, .third{
-    border: 1px solid #95989A;
+.arcfirst, .arcsecond{
+    padding-bottom: 40px;
+}
+.first, .second, .sectiontext{
+    border: 1px solid #E8E9ED;
     background-color: #FFFFFF;
     height: 350px;
 
 }
-.cont-sect3{
+.box3{
+    position: relative;
+}
+.sectiontext{
+    width: 580px;
+    display: block;
+    position: absolute;
+}
+.sectionpic{
+    display: block;
+    position: absolute;
+}
+.cont-benefits{
     padding-top: 100px;
     padding-bottom: 100px;
 }
