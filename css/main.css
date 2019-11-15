@@ -368,3 +368,113 @@ li a:hover{
     top: -150px;
     z-index: 0;
 }
+
+
+
+#prices h2{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 60px;
+
+}
+.cont-sect4{
+    margin: 0 auto;
+    width: 1352px;
+}
+.main4{
+    display: flex;
+    justify-content: space-around;
+}
+.pricesbox h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.offer{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding:10px 0 40px 0;
+}
+.pricesbox .price{
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.basic ul, .professional ul, .premium ul{
+    list-style-type: none;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+}
+.basic{
+    width: 35em;
+    height: 48em;
+    border: 1.5px solid #FB3B64;
+    border-radius: 10px;
+    padding: 30px 50px 70px 50px;
+    position: relative;
+}
+.basic .price{
+    color: #FB3B64;
+    padding:10px 0 40px 0;
+}
+.btn-basic{
+    height: 3.5em;
+    width: 10em;
+    color: white;
+    font-weight: bold;
+    background-color: #FB3B64;
+    border-radius: 30px;
+    position: absolute;
+    left: 5.5em;
+    bottom: -1.5em;
+}
+.professional{
+    width: 35em;
+    height: 48em;
+    border: 1.5px solid #08A6E4;
+    border-radius: 10px;
+    padding: 30px 50px 70px 50px;
+    box-shadow: 0px 5px 6px #00000029;
+    position: relative;
+}
+.btn-professional{
+    height: 3.5em;
+    width: 10em;
+    color: white;
+    font-weight: bold;
+    background-color: #08A6E4;
+    border-radius: 30px;
+    position: absolute;
+    left: 5.5em;
+    bottom: -1.5em;
+}
+.professional .price{
+    color: #08A6E4;;
+}
+.premium{
+    width: 35em;
+    height: 48em;
+    border: 1.5px solid #55DFB4;
+    border-radius: 10px;
+    padding: 30px 50px 70px 50px;
+    position: relative;
+}
+.premium .price{
+    color: #55DFB4;
+}
+.btn-premium{
+    height: 3.5em;
+    width: 10em;
+    color: white;
+    font-weight: bold;
+    background-color: #55DFB4;
+    border-radius: 30px;
+    position: absolute;
+    left: 5.5em;
+    bottom: -1.5em;
+}
