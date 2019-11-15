@@ -430,7 +430,7 @@ li a:hover{
     background-color: #FB3B64;
     border-radius: 30px;
     position: absolute;
-    left: 5.5em;
+    left: 7em;
     bottom: -1.5em;
 }
 .professional{
@@ -450,7 +450,7 @@ li a:hover{
     background-color: #08A6E4;
     border-radius: 30px;
     position: absolute;
-    left: 5.5em;
+    left: 7em;
     bottom: -1.5em;
 }
 .professional .price{
@@ -475,6 +475,6 @@ li a:hover{
     background-color: #55DFB4;
     border-radius: 30px;
     position: absolute;
-    left: 5.5em;
+    left: 7em;
     bottom: -1.5em;
 }
