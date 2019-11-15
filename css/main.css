@@ -484,7 +484,7 @@ li a:hover{
 .contact{
     display: flex;
     justify-content: center;
-    padding-top: 20em;
+    padding: 20em 0 20em 0;
 }
 .left-box{
 
@@ -564,4 +564,31 @@ input[type="checkbox"]:checked::after {
     text-align: justify;
     padding-left: 30px;
     padding-top: 5px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #F7F7F7;
+    box-shadow: 0px -5px 40px #00000029;
+}
+.footer{
+    justify-content: space-between;
+}
+.footer-logo{
+    float: left;
+}
+.footer-logo .bestshop{
+    font-size: 3em;
+    color: #08A6E4;
+    padding-top: 12px;
+}
+.footer-logo .rights{
+    color: #A5A5A5;
+    padding-bottom: 30px;
+    font-size: 1em;
+}
+.media{
+    float: right;
+    padding-top: 20px;
 }
