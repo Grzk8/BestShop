@@ -1,5 +1,2 @@
-<img alt="Logo" src="http://coderslab.pl/img/coderslab-logo.png" width="400">
-
-# Zaawansowany HTML i CSS - Warsztat
-
-
+My first project, simple one-pagewebside, based on Darobe XD.
+In progress ( price calculator, mobile version)
