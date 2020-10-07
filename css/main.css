@@ -326,7 +326,10 @@ li a:hover{
 
 
 
-
+.thitd{
+    display: flex;
+    flex-direction: column;
+}
 .third-text{
     display: block;
     float: left;
@@ -636,7 +639,7 @@ footer{
         display: inline;
         padding: 15px;
         cursor: pointer;
-       background-color: white;
+        background-color: white;
         border: 0;
         margin: 0;
         position: absolute;
@@ -657,124 +660,46 @@ footer{
     .btn{
         left: 25%;
     }
+    #benefits{
+        height: 2000px;
+    }
     .column{
         display: flex;
         flex-direction: column;
     }
     .first, .second, .sectiontext{
         height: 550px;
-    }
-    .box3{
-        position: relative;
+        width: 60%;
     }
     .sectiontext{
-        width: 580px;
-        display: block;
-        position: absolute;
-        padding-left: 10%;
+        height: 650px;
     }
-    .sectionpic{
-        display: block;
-        position: absolute;
+    .sectiontext{
+        padding-left: 5%;
     }
     .cont-benefits{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .first-text{
-        display: block;
-        float: left;
-        padding-left: 30px;
-        padding-top: 50px;
-    }
-    .first-text h3{
-        font-size: 2rem;
-    }
-    .first-text p{
-        font-size: 0.8rem;
-        max-width: 300px;
-    
-    }
-    .line{
-        display: block;
-        height: 3px;
-        width: 300px;
-        background-color: #FB3B64;
-    
-    }
-    .first.pic{
-        position: absolute;
-        float: left;
+        padding-left: 20%;
     }
     .picmacbook{
-        background-image: url("../assets/Macbook.png");
-        width: 350px;
-        height: 200px;
-        display: block;
         right: -100px;
         top: 70px;
-        background-size: contain;
-        position: relative;
-        z-index: 1;
     }
     .first-box{
-        width: 130px;
-        height: 130px;
-        background-color: #FB3B64;
-        border-radius: 10%;
-        transform: rotate(40deg);
-        position: relative;
         right: -320px;
         top: -160px;
-        z-index: 0;
     }
     .second-text{
-        display: block;
-        float: right;
-        padding-right: 40px;
-        padding-top: 50px;
+        padding-left: 10%;
     }
-    .second-text h3{
-        font-size: 2rem;
+    .trumpet{
+        background-image: url("../assets/Trumpet.png");
+        right: -60px;
+        top: 370px;
     }
-    .second-text p{
-        font-size: 0.8rem;
-        max-width: 300px;
+    .third-box{
+        right: -30px;
+        top: 100px;
+    }
     
-    }
-    .second-text .line{
-        display: block;
-        height: 3px;
-        width: 300px;
-        background-color: #08A6E4;
-    
-    }
-    .second.pic{
-        position: absolute;
-        float: left;
-    }
-    .iphone{
-        background-image: url("../assets/iPhone.png");
-        width: 260px;
-        height: 200px;
-        display: block;
-        right: -150px;
-        top: 70px;
-        background-size: contain;
-        position: relative;
-        z-index: 1;
-    }
-    .second-box{
-        width: 230px;
-        height: 230px;
-        background-color: #08A6E4;
-        border-radius: 50%;
-        transform: rotate(40deg);
-        position: relative;
-        right: -120px;
-        top: -160px;
-        z-index: 0;
-    }
-
 
 }
