@@ -34,10 +34,14 @@ body {
     position: absolute;
     top: 0px;
     padding-top: 8px;
+    padding-left: 10%;
 
 }
 .hamburger{
     display: none;
+}
+.menu{
+    padding-right: 10%;
 }
 .menu li{
     list-style-type: none;
@@ -627,7 +631,7 @@ footer{
         width:100vw;
 }
     .header{
-        height: 15vh;
+        height: 18vh;
     }
     .logo{
         font-size: 5em;
@@ -644,7 +648,6 @@ footer{
         margin: 0;
         position: absolute;
         right: 10%;
-        width: 10%;
     }
     .hamburger:focus{
         outline: none;
@@ -699,6 +702,27 @@ footer{
     .third-box{
         right: -30px;
         top: 100px;
+    }
+    .main4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .price_box{
+        padding-bottom: 20%;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-box{
+        padding-bottom: 20%;
+        text-align: center;
+        padding-left: 10%;
+    }
+    .right-box{
+
     }
     
 
