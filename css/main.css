@@ -383,7 +383,7 @@ li a:hover{
 
 
 
-#prices h2{
+.ptices_title{
     font-size: 3rem;
     font-weight: 200;
     text-align: center;
@@ -524,7 +524,6 @@ li a:hover{
 
 
 
-
 .right-box{
     width: 30em;
     display: flex;
@@ -629,10 +628,11 @@ footer{
 
 @media screen and  (max-width: 800px){
     .container{
-        width:100vw;
+        max-width:650px;
     }
     .header{
         height: 18vh;
+        width:100vw;
     }
     .logo{
         font-size: 5em;
@@ -664,6 +664,117 @@ footer{
     .btn{
         left: 25%;
     }
+
+
+
+
+
+
+
+
+    #why-us{
+        height: 400px;
+    }
+    #why-us h2{
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .wigets{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    .daily-logo{
+        background: transparent url("../assets/Person.svg");
+        height: 55px;
+        width: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        position: relative;
+    
+    }
+    .daily-logo:before{
+        content: "";
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #FB3B64;
+        z-index: -1;
+        left: 28%;
+        display: block;
+        position: absolute;
+    
+    }
+    .seen-logo{
+        background: url("../assets/Eye.svg");
+        height: 55px;
+        width: 65px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        position: relative;
+    }
+    .seen-logo:before{
+        content: "";
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #08A6E4;
+        z-index: -1;
+        left: 46.5%;
+        position: absolute;
+    }
+    .added-logo{
+        background: url("../assets/Catalog.svg");
+        height: 55px;
+        width: 65px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        position: relative;
+    }
+    .added-logo:before{
+        content: "";
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #55DFB4;
+        z-index: -1;
+        left: 64%;
+        position: absolute;
+    }
+    
+    .wigets .numbers{
+        border-top: 10px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+    .wigets .text{
+        font-size: 1rem;
+        color: #95989A;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     #benefits{
         height: 2000px;
     }
@@ -673,10 +784,11 @@ footer{
     }
     .first, .second, .sectiontext{
         height: 550px;
-        width: 60%;
+        width: 90%;
     }
     .sectiontext{
         height: 650px;
+        width: 100vw;
     }
     .sectiontext{
         padding-left: 5%;
@@ -685,11 +797,11 @@ footer{
         padding-left: 20%;
     }
     .picmacbook{
-        right: -100px;
+        right: -20px;
         top: 70px;
     }
     .first-box{
-        right: -320px;
+        right: -250px;
         top: -160px;
     }
     .second-text{
@@ -729,34 +841,112 @@ footer{
 
 @media screen and  (max-width: 600px) {
     .container{
-        width:100vw;
-    }
-    .header{
-        height: 18vh;
-        width: 100%;  
+        max-width:100vw;
     }
     .logo{
-        font-size: 5em;
-        top: 12px;
+        font-size: 4em;
+        top: 22px;
         padding-left: 10%;
     
     }
     .hamburger{
-        display: inline;
-        padding: 15px;
-        cursor: pointer;
-        background-color: white;
-        border: 0;
-        margin: 0;
-        position: absolute;
-        right: -20%;
+        right: 0%;
     }
-    .hamburger:focus{
-        outline: none;
+    #benefits{
+        height: 2000px;
+        width: 100vw;
     }
-    .fa-bars{
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .first, .second, .sectiontext{
+        height: 550px;
+        width: 100vw;
         position: relative;
-        font-size: 3.5rem;
-        color: #08A6E4;
+        left: -60px;
+    }
+    .sectiontext{
+        height: 650px;
+        width: 100vw;
+    }
+    .sectionpic{
+        width: 100vw;
+    }
+    .sectiontext{
+        padding-left: 0%;
+    }
+    .cont-benefits{
+        padding-left: 20%;
+    }
+    .picmacbook{
+        right: 20px;
+        top: 70px;
+    }
+    .first-box{
+        right: -180px;
+        top: -160px;
+    }
+    .second-text{
+        width: 90vw;
+        
+    }
+    .second-box{
+        right: -30px;
+    }
+    .iphone{
+        right: -70px;
+    }
+    .trumpet{
+        background-image: url("../assets/Trumpet.png");
+        right: 60px;
+        top: 370px;
+    }
+    .third-box{
+        right: 60px;
+        top: 100px;
+    }
+    .section-1 h1{
+        font-size: 4.8em;
+        padding: 80px 0 20px 0;
+    }
+    .section-1 p{
+        font-size: 1.5em;
+        text-align: center;
+        
+    }
+    .cont-sect1{
+        position: relative;
+    }
+    .btn{
+        font-size: 2em;
+        width: 200px;
+        height: 60px;
+        left: 22%;
+    }
+
+    #why-us{
+        height: 700px;
+    }
+    #why-us h2{
+        font-size: 2rem;
+    }
+    .wigets{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: auto;
+    }
+    .wigets .text{
+        padding-bottom: 70%;
+    }
+    .pricesbox{
+        width: 100%;
+    }
+
+    .left-box{
+        padding-bottom: 20%;
+        text-align: center;
+        padding-left: 40%;
     }
 }
