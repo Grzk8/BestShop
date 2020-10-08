@@ -69,6 +69,7 @@ li a:hover{
     background-image: url("../assets/Background.png");
     background-position: bottom;
     height: 800px;
+    width: 100vw;
     background-repeat: no-repeat;
 }
 .section-1 h1{
@@ -629,7 +630,7 @@ footer{
 @media screen and  (max-width: 800px){
     .container{
         width:100vw;
-}
+    }
     .header{
         height: 18vh;
     }
@@ -724,6 +725,38 @@ footer{
     .right-box{
 
     }
-    
+}
 
+@media screen and  (max-width: 600px) {
+    .container{
+        width:100vw;
+    }
+    .header{
+        height: 18vh;
+        width: 100%;  
+    }
+    .logo{
+        font-size: 5em;
+        top: 12px;
+        padding-left: 10%;
+    
+    }
+    .hamburger{
+        display: inline;
+        padding: 15px;
+        cursor: pointer;
+        background-color: white;
+        border: 0;
+        margin: 0;
+        position: absolute;
+        right: -20%;
+    }
+    .hamburger:focus{
+        outline: none;
+    }
+    .fa-bars{
+        position: relative;
+        font-size: 3.5rem;
+        color: #08A6E4;
+    }
 }
