@@ -122,7 +122,6 @@ li a:hover{
     margin: auto;
 }
 
-
 .daily-logo{
     background: transparent url("../assets/Person.svg");
     height: 55px;
@@ -195,11 +194,6 @@ li a:hover{
     color: #95989A;
     text-align: center;
 }
-
-
-
-
-
 
 #benefits{
     background-color: #F7F7F7;
@@ -330,9 +324,6 @@ li a:hover{
     top: -160px;
     z-index: 0;
 }
-
-
-
 .thitd{
     display: flex;
     flex-direction: column;
@@ -382,8 +373,6 @@ li a:hover{
     top: -150px;
     z-index: 0;
 }
-
-
 
 .ptices_title{
     font-size: 3rem;
@@ -493,8 +482,6 @@ li a:hover{
     bottom: -1.5em;
 }
 
-
-
 .contact{
     display: flex;
     justify-content: center;
@@ -525,7 +512,6 @@ li a:hover{
 }
 
 
-
 .right-box{
     width: 30em;
     display: flex;
@@ -551,7 +537,6 @@ input[type="checkbox"] {
     margin-top: 10px;
     position: relative;
 }
-
 input[type="checkbox"]::after {
     content: "";
     width: 24px;
@@ -578,8 +563,6 @@ input[type="checkbox"]:checked::after {
     padding-left: 30px;
     padding-top: 5px;
 }
-
-
 footer{
     width: 100%;
     background-color: #F7F7F7;
@@ -633,8 +616,9 @@ footer{
         max-width:650px;
     }
     .header{
-        height: 18vh;
-        width:100vw;   
+        height: 21vh;
+        width:100vw;
+        z-index: 10;   
     }
     .logo{
         font-size: 5em;
@@ -665,7 +649,7 @@ footer{
     }
     .menu li{
         display: flex;
-        justify-content: flex-start;
+        flex-direction: reverse;
         background-color: white;
         width: 100vw;
         box-shadow: 0px 3px 6px -2px #00000029;
@@ -680,117 +664,6 @@ footer{
     .btn{
         left: 25%;
     }
-
-
-
-
-
-
-
-
-    #why-us{
-        height: 400px;
-    }
-    #why-us h2{
-        font-size: 1.5rem;
-        font-weight: 200;
-        text-align: center;
-        padding-top: 60px;
-        padding-bottom: 50px;
-    }
-    .wigets{
-        display: flex;
-        justify-content: space-evenly;
-        width: 90%;
-        margin: auto;
-    }
-    
-    
-    .daily-logo{
-        background: transparent url("../assets/Person.svg");
-        height: 55px;
-        width: 50px;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        position: relative;
-    
-    }
-    .daily-logo:before{
-        content: "";
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        background-color: #FB3B64;
-        z-index: -1;
-        left: 28%;
-        display: block;
-        position: absolute;
-    
-    }
-    .seen-logo{
-        background: url("../assets/Eye.svg");
-        height: 55px;
-        width: 65px;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        position: relative;
-    }
-    .seen-logo:before{
-        content: "";
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        background-color: #08A6E4;
-        z-index: -1;
-        left: 46.5%;
-        position: absolute;
-    }
-    .added-logo{
-        background: url("../assets/Catalog.svg");
-        height: 55px;
-        width: 65px;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        position: relative;
-    }
-    .added-logo:before{
-        content: "";
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        background-color: #55DFB4;
-        z-index: -1;
-        left: 64%;
-        position: absolute;
-    }
-    
-    .wigets .numbers{
-        border-top: 10px;
-        font-size: 1.1rem;
-        font-weight: bold;
-        letter-spacing: 4px;
-    }
-    .wigets .text{
-        font-size: 1rem;
-        color: #95989A;
-        text-align: center;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
     #benefits{
         height: 2000px;
     }
@@ -850,9 +723,6 @@ footer{
         text-align: center;
         padding-left: 10%;
     }
-    .right-box{
-
-    }
 }
 
 @media screen and  (max-width: 600px) {
@@ -863,7 +733,6 @@ footer{
         font-size: 4em;
         top: 22px;
         padding-left: 10%;
-    
     }
     .hamburger{
         right: 0%;
@@ -940,7 +809,6 @@ footer{
         height: 60px;
         left: 22%;
     }
-
     #why-us{
         height: 700px;
     }
@@ -959,7 +827,6 @@ footer{
     .pricesbox{
         width: 100%;
     }
-
     .left-box{
         padding-bottom: 20%;
         text-align: center;
